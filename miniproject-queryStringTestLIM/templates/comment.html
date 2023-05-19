@@ -36,7 +36,7 @@
 			fetch('/guestbook', { method: "POST", body: formData, }).then((res) => res.json()).then((data) => {
 
 				window.location.reload();
-				onload(location.href = "comment")
+				onload(location.href = "/comment")
 			});
 		}
 		function show_comment() {
